@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: kafka-go-client
+  description: Pure Go Kafka client used by pantalasa payments stack
+  annotations:
+    github.com/project-slug: pantalasa-cronos/kafka-go
+  tags:
+    - kafka
+    - messaging
+spec:
+  type: library
+  lifecycle: production
+  owner: group:default/team-data-platform
+  domain: data.streaming
