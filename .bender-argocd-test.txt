@@ -1,0 +1,1 @@
+argocd non-demo collector smoke test 2026-06-26T13:04:51Z (ENG-1014)
